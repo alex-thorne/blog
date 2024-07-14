@@ -6,7 +6,7 @@ basics:
   label: "IT Operations Manager"
   picture: "/assets/img/headshot-resume.jpg"
 #  email: ""
-#  phone: "+420 737 208 621"
+#  phone: ""
   website: "https://alexthorne.site"
   summary: >
     For the last ten years I’ve committed myself to leading my Product line’s IT Operations to success.
@@ -16,11 +16,11 @@ basics:
     I’m committed to service excellence and delivering phenomenal customer care.
     And I’m a dedicated team member with a strong sense of ownership.
   # location:
-  #   address: "U Svobodarny 4/1064"
-  #   postalCode: "190 00"
-  #   city: "Prague"
-  #   countryCode: "CZ"
-  #   region: "Prague"
+  #   address: ""
+  #   postalCode: ""
+  #   city: ""
+  #   countryCode: ""
+  #   region: ""
   profiles:
     - network: "LinkedIn"
       username: "alexanderthorne"
@@ -28,7 +28,6 @@ basics:
     - network: "GitHub"
       username: "alex-thorne"
       url: "https://github.com/alex-thorne"
-
 work:
   - company: "Deutsche Börse"
     position: "Head of Section: M7 Gas & Observability"
@@ -85,8 +84,8 @@ education:
     startDate: "2005-09-01"
     endDate: "2009-05-01"
 #    courses:
-#      - "DB1101 - Basic SQL"
-#      - "CS2011 - Java Introduction"
+#      - ""
+#      - ""
 
 # skills:
 #   - name: "Ansible"
@@ -116,10 +115,10 @@ languages:
 interests:
   - name: "Long distance running, cycling, music, board games."
 
-references:
-  - name: "Jens Rick, CIO: European Energy Exchange"
-    reference: >
-      tbd
-  - name: "Antoine Vigues,Product Lead: M7 Trading Solutions, Deutsche Börse"
-    reference: >
-      tbd
+# references:
+#   - name: "Jens Rick, CIO: European Energy Exchange"
+#     reference: >
+#       tbd
+#   - name: "Antoine Vigues,Product Lead: M7 Trading Solutions, Deutsche Börse"
+#     reference: >
+#       tbd
