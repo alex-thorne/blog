@@ -1,20 +1,18 @@
-# Hydejack Starter Kit
+# Personal Blog Site
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+A personal blog site for sharing projects, blogs, my personal resume, and links to various other communities, platforms, or ideas I'm interested in.
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
+## Running locally
+1. Clone repository
+3. Run `bundle install` [^1] from project root (where `_config` is located.)
 4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+5. Open <http://localhost:4000/>
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+## Dependencies 
+- ruby
+    - currently built using 3.3.3 (suggest managing via asdf)
+- [^1]: Requires Bundler. Install with `gem install bundler`.
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
-
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+## Tools
+- The site is presented as a [Jekyll](https://jekyllrb.com/) site
+- It's using the [hydejack](https://github.com/hydecorp/hydejack) theme
