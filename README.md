@@ -11,7 +11,7 @@ A personal blog site for sharing projects, blogs, my personal resume, and links 
 ## Dependencies 
 - ruby
     - currently built using 3.3.3 (suggest managing via asdf)
-- [^1]: Requires Bundler. Install with `gem install bundler`.
+- Bundler. Install with `gem install bundler`.
 
 ## Tools
 - The site is presented as a [Jekyll](https://jekyllrb.com/) site
