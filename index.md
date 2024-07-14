@@ -2,6 +2,7 @@
 layout: welcome
 title: Welcome
 sitemap: true
+cover: true
 ---
 
 Welcome to my personal blog space. More details to come.
