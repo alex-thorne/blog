@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: welcome
 title: Welcome
-sitemap: false
+sitemap: true
 ---
 
 Welcome to my personal blog space. More details to come.
