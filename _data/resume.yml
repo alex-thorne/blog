@@ -1,0 +1,125 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Alex Thorne"
+  label: "IT Operations Manager"
+  picture: "/assets/img/headshot-resume.jpg"
+#  email: ""
+#  phone: "+420 737 208 621"
+  website: "https://alexthorne.site"
+  summary: >
+    For the last ten years I’ve committed myself to leading my Product line’s IT Operations to success.
+    I’m a process specialist with a continued record of establishing efficient, sustainable process areas and highly performant teams.
+    I’m an experienced leader adept at cultivating effective team dynamics and healthy organizations.
+    I’m a seasoned communications expert with experience in developing and conveying strategy.
+    I’m committed to service excellence and delivering phenomenal customer care.
+    And I’m a dedicated team member with a strong sense of ownership.
+  # location:
+  #   address: "U Svobodarny 4/1064"
+  #   postalCode: "190 00"
+  #   city: "Prague"
+  #   countryCode: "CZ"
+  #   region: "Prague"
+  profiles:
+    - network: "LinkedIn"
+      username: "alexanderthorne"
+      url: "https://www.linkedin.com/in/alexanderthorne/"
+    - network: "GitHub"
+      username: "alex-thorne"
+      url: "https://github.com/alex-thorne"
+
+work:
+  - company: "Deutsche Börse"
+    position: "Head of Section: M7 Gas & Observability"
+    website: "https://deutsche-boerse.com/dbg-en/"
+    startDate: "2024-06-01"
+    endDate: ""
+    summary: >
+      Section lead heading two new products: M7 Gas, a next-gen trading platform for EU’s primary Gas market and M7 Observability, an in-house PaaS offering for scalable observability services. Formed a platform engineering team to provide the supporting infrastructure platform leveraging GCP’s GKE
+    highlights:
+        - Led R&D and Business Development of the M7 Observability Product
+        - Led Cloud Migration project from AWS and on-prem hosting to GCP
+        - Launched our division’s first Products to reach fully compliant status (KRITIS) running material workloads on Google Cloud Platform
+        - Led the transition to a GitOps approach for Continuous Delivery of infrastructure and software
+
+  - company: "Deutsche Börse"
+    position: "Head of Operations: Energy IT"
+    website: "https://deutsche-boerse.com/dbg-en/"
+    startDate: "2017-01-01"
+    endDate: ""
+    summary: >
+      Head of Operations for the M7 product line, Europe's premier power-spot trading platforms delivering highly performant, highly reliable services 24/7. Responsible for defining operational strategies and service design and  leading teams of highly skilled DevOps engineers and service management specialists committed to ensuring our Products’ continued service excellence.
+    highlights:
+        - Lead migration to build up an in-house Operations department from previous insourced and outsourced services.
+        - Co-led the shift from a waterfall-driven to a product-based Agile organization, utilizing LeSS, Scrum, and SRE/DevOps principles to create a series of products managed by cross-functional, highly autonomous delivery teams.
+        - Expanded my team from 6 to 27 direct reports from 2017 to 2023, amidst a 10x surge in daily market activity, while maintaining system performance and improving availability from under 99.8% to a consistent 99.99% annually.
+        - Refactored customer agreements and Release Management processes to achieve continuous delivery of our software production. 
+        - Developed a scalable, lean service management process by harmonizing service agreements, consolidating input streams and introducing the role of "Business Operations" to manage service delivery.
+        - Served as the asset owner for the infrastructure fleet and all third-party vendor services, managing a corresponding $5 million budget.
+ 
+  - company: "Deutsche Börse"
+    position: "Developer in Test / Test Lead, M7 Trading Solutions"
+    website: "https://deutsche-boerse.com/dbg-en/"
+    startDate: "2015-03-01"
+    endDate: ""
+    summary: >
+      Responsible for test automation, development and maintenance of test tools, test planning, test management and coordination, non-functional systems testing, networking and systems administration, integration and deployment processes.
+    highlights:
+        - Main contributor to our department’s first fully automated GUI test suite (Selenium WebDriver for Java)
+        - Built and maintained a series of VirtualBox images to allow for local testing by our test team
+        - Lead initiative for adoption of Cucumber as an test modeling approach for QA and Customer UAT        
+
+volunteer:
+  - organization: "The Nature And Biodiversity Conservation Union Germany"
+    position: "Educator"
+    website: "https://en.nabu.de/index.html"
+    startDate: "2010-01-01"
+    endDate: "2011-01-01"
+    summary: "Voluntary Ecological Year (FÖJ). Worked as part of NABU to maintain a centern for environmental education in Landau-Mörzheim, Pfalz, Germany. Led guided nature tours and workshops for school classes of all ages and other groups. Worked to maintain a series of organic vineyards and orchards owned by the NABU organization."
+
+education:
+  - institution: "San Jose State University"
+    area: "Spatial Arts"
+    studyType: "Bachelor"
+    startDate: "2005-09-01"
+    endDate: "2009-05-01"
+#    courses:
+#      - "DB1101 - Basic SQL"
+#      - "CS2011 - Java Introduction"
+
+skills:
+  - name: "Ansible"
+    level: "Intermediate"
+  - name: "Terraform"
+    level: "Beginner"
+  - name: "Linux administration"
+    level: "Beginner"
+  - name: "Python"
+    level: "Beginner"
+  - name: "GCP"
+    level: "Intermediate"
+  - name: "Jira administration"
+    level: "Expert"
+  - name: "Confluence administration"
+    level: "Expert"
+
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+    highlights: "Passed TestDaf certification exam (C1)"
+  - language: "German"
+    fluency: "Professional working proficiency"
+  - language: "Czech"
+    fluency: "Elementary proficiency"
+
+interests:
+  - name: "Long distance running, cycling, music, board games."
+
+references:
+  - name: "Jens Rick, CIO: European Energy Exchange"
+    reference: >
+      tbd
+  - name: "Antoine Vigues,Product Lead: M7 Trading Solutions, Deutsche Börse"
+    reference: >
+      tbd
