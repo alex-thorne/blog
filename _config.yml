@@ -28,7 +28,7 @@ description:           >
   A simple personal site for sharing projects, blog posts, and various content.
 
 # A shorter description for the sidebar.
-tagline:               Hi, I'm Alex 😊
+tagline:               " "
 
 # A list of keywords for your blog
 keywords:              []
@@ -52,7 +52,7 @@ menu:
     url:               /blog/
   - title:             Projects
     url:               /projects/
-  - title:             Résumé
+  - title:             Resume
     url:               /resume/
   - title:             About
     url:               /about/
