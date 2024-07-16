@@ -21,7 +21,6 @@ links:
 sitemap: false
 ---
 
-
 ## #chuckstuff Project
 
 ### Some history on this project
@@ -36,7 +35,7 @@ I also couldn't stop thinking that, throughout the years I'd asked so many candi
 ### Results
 Without further ado, I submit for evaluation #[chuckstuff](https://github.com/alex-thorne/take-home-assignment): my devops engineer application take-home assignment.  
 
-Without a doubt this project could use more work. I chose to pause at the 'minimum viable product' stage rather than continue on with several further enhancements that really should be there. I'd like to come back to it soon, it is after all a nice little project to build on as a playground of sorts. If my colleagues were to rate me as a candidate with this submission I would have had to be lucky to be invited to a follow up interview 😅 At the "MVP" stage, I failed to follow the instructions calling for "reusability" of the solution. For that I might have separated some logical groupings out of the Terraform provisioning, at least the networking setup. Overall the provisioning and Ansible deployment lacks impotency and error handling.
+Without a doubt this project could use more work. I chose to pause at the 'minimum viable product' stage rather than continue on with several further enhancements that really should be there. I'd like to come back to it soon, it is after all a nice little project to build on as a playground of sorts. If my colleagues were to rate me as a candidate with this submission I would have had to be lucky to be invited to a follow up interview 😅 At the "MVP" stage, I failed to follow the instructions calling for "reusability" of the solution. For that I might have separated some logical groupings out of the Terraform provisioning, at least the networking setup. Overall the provisioning and Ansible deployment lacks idempotency and error handling.
 
 ### Take-away
 This project was a great refresher for me. Although I am familiar with all of the concepts and technologies, putting something like this together from scratch is something I haven't done since long before our adoption of several of these tools. Years ago, when I was still doing "real" work and not just management 😉 we weren't yet using Ansible, Terraform, or Docker. We've also only just recently started deploying services to GCP.
