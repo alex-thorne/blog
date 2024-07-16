@@ -1,0 +1,20 @@
+current directory: /Users/alex/source/blog/vendor/bundle/ruby/3.3.0/gems/strscan-3.1.0/ext/strscan
+/Users/alex/.asdf/installs/ruby/3.3.3/bin/ruby extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/alex/source/blog/vendor/bundle/ruby/3.3.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240714-73985-hm2hzg sitelibdir\=./.gem.20240714-73985-hm2hzg clean
+
+current directory: /Users/alex/source/blog/vendor/bundle/ruby/3.3.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240714-73985-hm2hzg sitelibdir\=./.gem.20240714-73985-hm2hzg
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Users/alex/source/blog/vendor/bundle/ruby/3.3.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240714-73985-hm2hzg sitelibdir\=./.gem.20240714-73985-hm2hzg install
+/opt/homebrew/bin/ginstall -c -m 0755 strscan.bundle ./.gem.20240714-73985-hm2hzg
+
+current directory: /Users/alex/source/blog/vendor/bundle/ruby/3.3.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240714-73985-hm2hzg sitelibdir\=./.gem.20240714-73985-hm2hzg clean
