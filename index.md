@@ -5,17 +5,16 @@ sitemap: true
 cover: true
 ---
 
-Welcome to my personal blog space. More details to come.
+Welcome to my personal blog space. 
 
 ## What's here?
-I intend to share personal projects I'm working on in the [Projects]{:.heading.flip-title}.
+
+* Some personal projects in the [Projects]{:.heading.flip-title}.
 area.
 
-In addition, I've put a few other things here:
+* Some random [blog]{:.heading.flip-title} posts. 
 
-* [Blog]{:.heading.flip-title} --- A collection of personal thoughts, experiences, or whatever else I feel inclined to share.
-* [Résumé]{:.heading.flip-title} --- My personal résumé.
-{:.related-posts.faded}
+* My [résumé]{:.heading.flip-title}.
 
 [Projects]: projects.md
 [Blog]: posts.md
