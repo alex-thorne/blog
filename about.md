@@ -27,7 +27,7 @@ I'll also use this little site as a place to share links to various other intere
   <source srcset="/assets/img/alex-bike2@25.jpg" media="(max-width: 480px)">
   <source srcset="/assets/img/alex-bike2@50.jpg" media="(max-width: 960px)">
   <source srcset="/assets/img/alex-bike2.jpg" media="(max-width: 1920px)">
-  <img src="/assets/img/blog/kolo24/podširákem.jpg" alt="Kola 2024 Map">
+  <img src="/assets/img/alex-bike2.jpg" alt="Key West, Florida.">
 </picture>
 
 
