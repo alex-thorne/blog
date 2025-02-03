@@ -92,24 +92,24 @@ skills:
     level: "Intermediate"
   - name: "Terraform"
     level: "Beginner"
-  - name: "Linux administration"
+  - name: "Linux admin."
     level: "Intermediate"
   - name: "Python"
     level: "Beginner"
   - name: "GCP"
     level: "Intermediate"
-  - name: "Jira administration"
+  - name: "Jira admin."
     level: "Expert"
-  - name: "Confluence administration"
+  - name: "Confluence admin."
     level: "Expert"
 
 languages:
   - language: "English"
     fluency: "Native speaker"
-    highlights: "Passed TestDaf certification exam (C1)"
   - language: "German"
     fluency: "Professional working proficiency"
   - language: "Czech"
+    highlights: "Passed TestDaf certification exam (C1)"
     fluency: "Elementary proficiency"
 
 interests:
