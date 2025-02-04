@@ -9,12 +9,12 @@ basics:
 #  phone: ""
   website: "https://alexthorne.site"
   summary: >
-    For the last ten years I’ve committed myself to leading my Product line’s IT Operations to success.
+    For the last ten years I’ve committed myself to the Energy M7 Product Line of Deutsche Börse and our continued aim to deliver best-in-class commodities trading platforms via true agile software development methodologies and everything-as-code driven infrastructure and delivery systems.
     I’m a process specialist with a continued record of establishing efficient, sustainable process areas and highly performant teams.
     I’m an experienced leader adept at cultivating effective team dynamics and healthy organizations.
     I’m a seasoned communications expert with experience in developing and conveying strategy.
     I’m committed to service excellence and delivering phenomenal customer care.
-    And I’m a dedicated team member with a strong sense of ownership.
+    And I’m a dedicated team member with a strong sense of ownership willingess to do whatever it takes to help my teams meet their goals. 
   # location:
   #   address: ""
   #   postalCode: ""
@@ -30,44 +30,86 @@ basics:
       url: "https://github.com/alex-thorne"
 work:
   - company: "Deutsche Börse"
-    position: "Head of Section: M7 Gas & Observability"
+    position: "Head of unit: M7 Gas & Observability"
     website: "https://deutsche-boerse.com/dbg-en/"
     startDate: "2024-06-01"
     endDate: ""
     summary: >
-      Section lead heading two new products: M7 Gas, a next-gen trading platform for EU’s primary Gas market and M7 Observability, an in-house PaaS offering for scalable observability services. Formed a platform engineering team to provide the supporting infrastructure platform leveraging GCP’s GKE
+      Engineering manager responsible for two newly created software development and devops teams responsible for building two new products: a next-generation energy commodities trading platform, and an in-house PaaS offering for scalable Prometheus, OpenTelemetry, and OpenSearch based observability services. 
     highlights:
-        - Led R&D and Business Development of the M7 Observability Product
-        - Led Cloud Migration project from AWS and on-prem hosting to GCP
+        - Formed a new platform engineering team to provide new products' infrastructure platform leveraging Google Cloud Platform's Kubernetes Engine (GKE)
+        - Championed R&D and business development of the M7 Observability Product
+        - Led cloud migration project from AWS and on-prem hosting to GCP
         - Launched our division’s first Products to reach fully compliant status (KRITIS) running material workloads on Google Cloud Platform
         - Led the transition to a GitOps approach for Continuous Delivery of infrastructure and software
 
   - company: "Deutsche Börse"
-    position: "Head of Operations: Energy IT"
+    position: "Head of Unit: Energy Operations"
     website: "https://deutsche-boerse.com/dbg-en/"
-    startDate: "2017-01-01"
-    endDate: ""
+    startDate: "2020-04-01"
+    endDate: "2024-06-01"
     summary: >
-      Head of Operations for the M7 product line, Europe's premier power-spot trading platforms delivering highly performant, highly reliable services 24/7. Responsible for defining operational strategies and service design and  leading teams of highly skilled DevOps engineers and service management specialists committed to ensuring our Products’ continued service excellence.
+      Head of IT Operations for the M7 product line, Europe’s premier power-spot trading platforms delivering highly performant, highly reliable services 24/7. Responsible for defining our operational strategies and service design. Engineering manager responsible leading multiple teams of highly skilled DevOps engineers and service management specialists committed to ensuring our Products’ continued service excellence.
     highlights:
-        - Lead migration to build up an in-house Operations department from previous insourced and outsourced services.
-        - Co-led the shift from a waterfall-driven to a product-based Agile organization, utilizing LeSS, Scrum, and SRE/DevOps principles to create a series of products managed by cross-functional, highly autonomous delivery teams.
-        - Expanded my team from 6 to 27 direct reports from 2017 to 2023, amidst a 10x surge in daily market activity, while maintaining system performance and improving availability from under 99.8% to a consistent 99.99% annually.
-        - Refactored customer agreements and Release Management processes to achieve continuous delivery of our software production. 
-        - Developed a scalable, lean service management process by harmonizing service agreements, consolidating input streams and introducing the role of "Business Operations" to manage service delivery.
-        - Served as the asset owner for the infrastructure fleet and all third-party vendor services, managing a corresponding $5 million budget.
- 
+        - Led continued migration to an in-house Operations department and shift from a waterfall-driven to a product-based Agile organization, utilizing LeSS, Scrum, and SRE/DevOps principles to create a series of products managed by cross-functional, highly autonomous delivery teams.
+        - Achieved an improved service availability from under 99.8% to a consistent 99.99%+ annual up-time for our flagship products.
+        - Asset owner for our product lines infrastructure fleet and all third-party vendor services
+        - Led various large scale infrastructure migration projects
+        - Managed large-scale infrastructure migration projects, ensuring seamless transitions for our product line.
+
   - company: "Deutsche Börse"
-    position: "Developer in Test / Test Lead, M7 Trading Solutions"
+    position: "Head of Unit: Energy Business Operations"
+    website: "https://deutsche-boerse.com/dbg-en/"
+    startDate: "2018-01-01"
+    endDate: "2020-04-01"
+    summary: >
+      Head of the newly formed Energy Business Operations team, leading the migration to an in-house agile product-focused IT operations department from previous insourced and outsourced services. 
+    highlights:
+        - Developed a scalable, lean service management process by harmonizing service agreements, consolidating input streams and introducing the role of "Business Operations" to manage service delivery.
+        - Championed the migration from various issue management and customer-relationship management systems to a consolidated Jira Service Desk and Jira Software platform.
+        - Refactored customer agreements and Release Management processes to achieve continuous delivery of our software to production.
+
+  - company: "Deutsche Börse"
+    position: "DevOps Engineer, Service Implementation"
+    website: "https://deutsche-boerse.com/dbg-en/"
+    startDate: "2016-10-01"
+    endDate: "2018-01-01"
+    summary: >
+      Member of the Service Implementation team, supporting transition of software development projects to release to customer.
+    highlights:
+        -  Planned and coordinated systems integration requirements for customer acceptance testing and production release of large scale software development projects for Deutsche Boerse's M7 Energy products
+        - Supported migration to an IaC delivery approach using Ansible & Jenkins for our full product line, ensuring seamless failover and zero-downtime production deployments.
+        - Led business and functional analysis to determine non-functional product requirements including backup, recovery, and data archiving; seamless failover and zero-downtime production deployments.
+        - Responsible for disaster recovery planning and testing     
+
+  - company: "Deutsche Börse"
+    position: "Software Development Engineer in Test"
     website: "https://deutsche-boerse.com/dbg-en/"
     startDate: "2015-03-01"
-    endDate: ""
+    endDate: "2016-10-01"
     summary: >
       Responsible for test automation, development and maintenance of test tools, test planning, test management and coordination, non-functional systems testing, networking and systems administration, integration and deployment processes.
     highlights:
-        - Main contributor to our department’s first fully automated GUI test suite (Selenium WebDriver for Java)
-        - Built and maintained a series of VirtualBox images to allow for local testing by our test team
-        - Lead initiative for adoption of Cucumber as an test modeling approach for QA and Customer UAT        
+        - Developed and maintained test automation suite using Selenium WebDriver for Java.
+        - Created test tools for our development teams, including test environment virtualization and its deployment automation.
+        - Responsible for test planning and coordination of both feature and non-functional, technical systems testing for multiple large scale release projects. 
+        - Supported development & maintenance of continuous integration and delivery processes for software development projects.        
+
+  - company: "Apple, Inc."
+    position: "Hardware & Software Technician"
+    website: "https://apple.com"
+    startDate: "2011-10-01"
+    endDate: "2014-04-01"
+    summary: >
+      Senior technician responsible service and support for Apple hardware devices and OSX & iOS softwares. Service management process specialist responsible for developing and streamlining service strategies. Hardware repair technician certified for all Apple hardware products. Mentored and assisted team members in advanced troubleshooting and diagnostics.
+
+  - company: "Carl Zeiss Meditec"
+    position: "Clinical Test Specialist"
+    website: "https://apple.com"
+    startDate: "2011-10-01"
+    endDate: "2014-04-01"
+    summary: >
+      Quality Assurance team member responsible for end of factory line testing of new, flagship retinal imaging device: Cirrus OTC. Redeveloped QA factory testing module. Tracked and analyzed test program data and presented program results to quality control meetings.
 
 volunteer:
   - organization: "The Nature And Biodiversity Conservation Union Germany"
@@ -88,6 +130,30 @@ education:
 #      - ""
 
 skills:
+  - name: "Agile software development methodologies"
+    level: "Expert"
+  - name: "DevOps principles"
+    level: "Expert"
+  - name: "Service Management"
+    level: "Expert"
+  - name: "Infrastructure as Code"
+    level: "Expert" 
+  - name: "Google Cloud Platform"
+    level: "Beginner"
+  - name: "AWS"
+    level: "Intermediate" 
+  - name: "Prometheus"
+    level: "Beginner"
+  - name: "OpenTelemetry"
+    level: "Beginner" 
+  - name: "OpenSearch"
+    level: "Beginner" 
+  - name: "Kubernetes"
+    level: "Beginner"
+  - name: "GitOps"
+    level: "Intermediate"
+  - name: "Jenkins" 
+    level: "Intermediate" 
   - name: "Ansible"
     level: "Intermediate"
   - name: "Terraform"
@@ -96,8 +162,6 @@ skills:
     level: "Intermediate"
   - name: "Python"
     level: "Beginner"
-  - name: "GCP"
-    level: "Intermediate"
   - name: "Jira admin."
     level: "Expert"
   - name: "Confluence admin."
@@ -122,3 +186,31 @@ interests:
 #   - name: "Antoine Vigues,Product Lead: M7 Trading Solutions, Deutsche Börse"
 #     reference: >
 #       tbd
+
+# certificates:
+#   - name: "Certified Scrum Master"
+#     authority: "Scrum Alliance"
+#     startDate: "2020-01-01"
+#     endDate: "2022-01-01"
+#     url: "https://www.scrumalliance.org/"
+
+#   - name: "Apple certified hardware technician"
+#     authority: "Scrum Alliance"
+#     startDate: "2020-01-01"
+#     endDate: "2022-01-01"
+#     url: "https://www.scrumalliance.org/"
+
+#   - name: "Apple certified OSX software technician"
+#     authority: "Scrum Alliance"
+#     startDate: "2020-01-01"
+#     endDate: "2022-01-01"
+#     url: "https://www.scrumalliance.org/"
+
+#   - name: "Apple certified small devices technician"
+#     authority: "Scrum Alliance"
+#     startDate: "2020-01-01"
+#     endDate: "2022-01-01"
+#     url: "https://www.scrumalliance.org/"
+
+
+
