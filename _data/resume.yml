@@ -1,12 +1,8 @@
-# If you have a `resume.json` file, copy it into `_data` and delete this file.
-# If you don't have a JSON Resume you can just edit this YAML file instead.
-# See also: <https://jsonresume.org/>.
+# To use json resume, copy `resume.json` file to `_data` and delete this file.
 basics:
   name: "Alex Thorne"
   label: "IT Operations Manager"
   picture: "/assets/img/headshot-resume.jpg"
-#  email: ""
-#  phone: ""
   website: "https://alexthorne.site"
   summary: >
     For the last ten years I’ve committed myself to the Energy M7 Product Line of Deutsche Börse and our continued aim to deliver best-in-class commodities trading platforms via true agile software development methodologies and everything-as-code driven infrastructure and delivery systems.
@@ -15,12 +11,6 @@ basics:
     I’m a seasoned communications expert with experience in developing and conveying strategy.
     I’m committed to service excellence and delivering phenomenal customer care.
     And I’m a dedicated team member with a strong sense of ownership willingess to do whatever it takes to help my teams meet their goals. 
-  # location:
-  #   address: ""
-  #   postalCode: ""
-  #   city: ""
-  #   countryCode: ""
-  #   region: ""
   profiles:
     - network: "LinkedIn"
       username: "alexanderthorne"
@@ -125,92 +115,3 @@ education:
     studyType: "Bachelor"
     startDate: "2005-09-01"
     endDate: "2009-05-01"
-#    courses:
-#      - ""
-#      - ""
-
-skills:
-  - name: "Agile software development methodologies"
-    level: "Expert"
-  - name: "DevOps principles"
-    level: "Expert"
-  - name: "Service Management"
-    level: "Expert"
-  - name: "Infrastructure as Code"
-    level: "Expert" 
-  - name: "Google Cloud Platform"
-    level: "Beginner"
-  - name: "AWS"
-    level: "Intermediate" 
-  - name: "Prometheus"
-    level: "Beginner"
-  - name: "OpenTelemetry"
-    level: "Beginner" 
-  - name: "OpenSearch"
-    level: "Beginner" 
-  - name: "Kubernetes"
-    level: "Beginner"
-  - name: "GitOps"
-    level: "Intermediate"
-  - name: "Jenkins" 
-    level: "Intermediate" 
-  - name: "Ansible"
-    level: "Intermediate"
-  - name: "Terraform"
-    level: "Beginner"
-  - name: "Linux admin."
-    level: "Intermediate"
-  - name: "Python"
-    level: "Beginner"
-  - name: "Jira admin."
-    level: "Expert"
-  - name: "Confluence admin."
-    level: "Expert"
-
-languages:
-  - language: "English"
-    fluency: "Native speaker"
-  - language: "German"
-    fluency: "Professional working proficiency"
-  - language: "Czech"
-    highlights: "Passed TestDaf certification exam (C1)"
-    fluency: "Elementary proficiency"
-
-interests:
-  - name: "Long distance running, cycling, music, board games."
-
-# references:
-#   - name: "Jens Rick, CIO: European Energy Exchange"
-#     reference: >
-#       tbd
-#   - name: "Antoine Vigues,Product Lead: M7 Trading Solutions, Deutsche Börse"
-#     reference: >
-#       tbd
-
-# certificates:
-#   - name: "Certified Scrum Master"
-#     authority: "Scrum Alliance"
-#     startDate: "2020-01-01"
-#     endDate: "2022-01-01"
-#     url: "https://www.scrumalliance.org/"
-
-#   - name: "Apple certified hardware technician"
-#     authority: "Scrum Alliance"
-#     startDate: "2020-01-01"
-#     endDate: "2022-01-01"
-#     url: "https://www.scrumalliance.org/"
-
-#   - name: "Apple certified OSX software technician"
-#     authority: "Scrum Alliance"
-#     startDate: "2020-01-01"
-#     endDate: "2022-01-01"
-#     url: "https://www.scrumalliance.org/"
-
-#   - name: "Apple certified small devices technician"
-#     authority: "Scrum Alliance"
-#     startDate: "2020-01-01"
-#     endDate: "2022-01-01"
-#     url: "https://www.scrumalliance.org/"
-
-
-
