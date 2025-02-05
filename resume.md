@@ -12,8 +12,8 @@ left_column:
   # - awards
   # - publications
   # - references
-right_column:
-  - languages
+#right_column:
+  # - languages
   # - skills
   # - interests
 no_language_icons: false
