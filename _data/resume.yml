@@ -4,13 +4,6 @@ basics:
   label: "IT Operations Manager"
   picture: "/assets/img/headshot-resume.jpg"
   website: "https://alexthorne.site"
-  summary: >
-    For the last ten years I’ve committed myself to the Energy M7 Product Line of Deutsche Börse and our continued aim to deliver best-in-class commodities trading platforms via true agile software development methodologies and everything-as-code driven infrastructure and delivery systems.
-    I’m a process specialist with a continued record of establishing efficient, sustainable process areas and highly performant teams.
-    I’m an experienced leader adept at cultivating effective team dynamics and healthy organizations.
-    I’m a seasoned communications expert with experience in developing and conveying strategy.
-    I’m committed to service excellence and delivering phenomenal customer care.
-    And I’m a dedicated team member with a strong sense of ownership willingess to do whatever it takes to help my teams meet their goals. 
   profiles:
     - network: "LinkedIn"
       username: "alexanderthorne"
@@ -18,6 +11,13 @@ basics:
     - network: "GitHub"
       username: "alex-thorne"
       url: "https://github.com/alex-thorne"
+  summary: >
+    For the last ten years I’ve committed myself to the Energy M7 Product Line of Deutsche Börse and our continued aim to deliver best-in-class commodities trading platforms via true agile software development methodologies and everything-as-code driven infrastructure and delivery systems.
+    I’m a process specialist with a continued record of establishing efficient, sustainable process areas and highly performant teams.
+    I’m an experienced leader adept at cultivating effective team dynamics and healthy organizations.
+    I’m a seasoned communications expert with experience in developing and conveying strategy.
+    I’m committed to service excellence and delivering phenomenal customer care.
+    And I’m a dedicated team member with a strong sense of ownership willingess to do whatever it takes to help my teams meet their goals. 
 work:
   - company: "Deutsche Börse"
     position: "Head of unit: M7 Gas & Observability"
