@@ -55,21 +55,94 @@ Getting the site content filled in is, of course, the lion's share of the work h
 
 ### Domain Registry
 
-- This is extremely simple. Still, I'd never done it before for lack of any need. I spent more time searching for which domain registrar to choose. I landed on one, and from there it's a very [simple task](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) to set up DNS to point the GitHub Pages site to my new registered domain. 
+This is extremely simple. Still, I'd never done it before for lack of any need. I spent more time searching for which domain registrar to choose. I landed on one, and from there it's a very [simple task](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) to set up DNS to point the GitHub Pages site to my new registered domain.
 
-### Delivery 
+### Delivery
 
-For the initial iteration, I chose just the very simple suggested [Jekyll workflow](https://github.com/alex-thorne/blog/commit/7dbb6ba785f38f1d2b825f59c9a98ccc15860bc4) action. It's as easy as creating that workflow yaml, and setting the config, i.e. run that build on push to `main`, and tada, CI/CD. Neat.
+Jeykll plays very well with GitHub Pages, and they both play well together with GitHub Actions, so this project was a very accesible initial exploration of GitHub Actions. I played around with several approaches, I wanted to find a way to set up a simple continuous integration and deployment approach. "Staging" with GitHub pages is a little tricky, I played around with some options of fully deploying the site in a "staging" approach. I did find one interesting workflow, [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) that adds support for publishing to an external repository. I decided however that building and viewing the Jekyll site locally is plenty for this purpose. 
+
+As of writing, the workflow I'm using is a slightly modified version of th suggested [Jekyll workflow](https://github.com/alex-thorne/blog/commit/7dbb6ba785f38f1d2b825f59c9a98ccc15860bc4https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml). I adjusted the workflow to trigger the build job on both on push _and_ merge to `main` and `develop` branch, but only deploy when run on triggers for `main`. Then set branch rules to require successful build checks for those two branche from the action, and set up the settings for GitHub Pages to use GitHub Actions as its source, and tada, CI/CD. Neat.
+
+```yaml
+name: Deploy Jekyll site to Pages
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main, develop]
+
+    # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408 # v1.195.0
+        with:
+          ruby-version: '3.2.2' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: alex-thorne/blog
+
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v3
+
+  # Deployment job
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+my slightly modified jekyll github actions workflow
+{:.figcaption}
 
 ## Take-away
 
 learnings:
+
 - finding asdf for version management
 - low-cost of entry initial experience with GitHub Actions
 - Forced to use some AI tools (Canva, ChatGPT-based Image Generator for site graphic assets (icons, headshots, logo))
 - finding the JSON Resume format
 - Having to think closely about sensitive content control if maintaining this project as a public repository
-
 
 ### Project Details
 - Date started: 14-07-2024
