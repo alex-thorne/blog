@@ -14,9 +14,9 @@ def resize_image(filename):
     
     # Define the resize percentages and the new filenames
     sizes = {
-        '@0,5': 50,
-        '@0,25': 25,
-        '@0,125': 12.5
+        '@0,5x': 50,
+        '@0,25x': 25,
+        '@0,125x': 12.5
     }
     
     # List to store the output information
