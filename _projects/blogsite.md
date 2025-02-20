@@ -3,7 +3,7 @@ layout: project
 title: 'blog site'
 caption: A personal blog site to showcase projects
 description: >
-  This project is this site itself. It's a simple blog site which will serve as a platform for documenting my journey through various projects. The development, deployment and hosting of the blog site is the "project" that it documented here. 
+  This project is this site itself. It's a simple blog site which will serve as a platform for documenting my journey through various projects. The development, deployment, and hosting of the blog site is the "project" that is documented here. 
 date: '14-07-2024'
 accent_color: '#4fb1ba'
 # accent_image:
@@ -21,15 +21,14 @@ links:
 sitemap: false
 ---
 
-
 # Blog Site
 
-I wanted to put up a site to host a resume and share some other content. I also knew I'd rather move to other more intereting projects than spend too much time on the site itself. I had some exposure to using Jekyll sites from collaborating with my brother, Erik, and friends on our indie-community-radio station, [The Pork Chop Express](http://porkchopexpress.live/). I especially liked the simplicity of building a Jekyll site with [GitHub Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) and hosting it via [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). I found a nice theme I liked in [Hydejack](https://hydejack.com/), a fork of the popular [Hyde](https://jekyllthemes.io/theme/hyde) theme. I like HydeJack's support for [JSON resume](https://jsonresume.org/), dark theme support, and several other features. 
+I wanted to put up a site to host a resume and share some other content. I also knew I'd rather move to other more interesting projects than spend too much time on the site itself. I had some exposure to using Jekyll sites from collaborating with my brother, Erik, and friends on our indie-community-radio station, [The Pork Chop Express](http://porkchopexpress.live/). I especially liked the simplicity of building a Jekyll site with [GitHub Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) and hosting it via [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). I found a nice theme I liked in [Hydejack](https://hydejack.com/), a fork of the popular [Hyde](https://jekyllthemes.io/theme/hyde) theme. I like HydeJack's support for [JSON resume](https://jsonresume.org/), dark theme support, and several other features. 
 
 ## Process
 
 ### Getting Started with Jekyll
-I struggled with some dependencies issues with Jekyll. Especially when moving between development on my [WSL2]{:.heading.flip-title} development environment on my main home PC and my M1 Silicon MacBook Pro. After a little bit of time I did get Jekyll working with Ruby v. 3.3.3. The more interesting result was that this caused experience caused me to look for a version manager for switching between versions of Ruby. I chose to go with [`asdf`](https://github.com/asdf-vm/asdf), using the [`asdf-ruby`](https://github.com/asdf-vm/asdf-ruby?tab=readme-ov-file) plugin rather than the several alternatives, chruby, rbenv or rvm. I primarily chose asdf for its reusability as it supports many languages and tools with its existing [plugins](https://github.com/asdf-vm/asdf-plugins). 
+I struggled with some dependency issues with Jekyll, especially when moving between development on my [WSL2]{:.heading.flip-title} development environment on my main home PC and my M1 Silicon MacBook Pro. After a little bit of time, I did get Jekyll working with Ruby v. 3.3.3. The more interesting result was that this experience caused me to look for a version manager for switching between versions of Ruby. I chose to go with [`asdf`](https://github.com/asdf-vm/asdf), using the [`asdf-ruby`](https://github.com/asdf-vm/asdf-ruby?tab=readme-ov-file) plugin rather than the several alternatives, chruby, rbenv, or rvm. I primarily chose asdf for its reusability as it supports many languages and tools with its existing [plugins](https://github.com/asdf-vm/asdf-plugins). 
 
 Jekyll itself is extremely easy once you get your development environment set up for it. 
 
@@ -51,7 +50,7 @@ Summed up, my setup looked something like this:
 
 ### Site Content
 
-Getting the site content filled in is, of course, the lion's share of the work here. As far as structure goes, I won't describe it here, as it's covered in Jekyll documentation and the specifics of the Hyde & HydeJack's themes. I ended up spending a bit of time using some AI powered tools to prepare graphic design related content for the site, e.g. background removal for headshots, resizing of images for logos/favicon. For these purposes, those tools worked amazingly well; just a shame really that kids these days will never get to experience the patience-training tedium of isolating content with the pen tool in Photoshop. 
+Getting the site content filled in is, of course, the lion's share of the work here. As far as structure goes, I won't describe it here, as it's covered in Jekyll documentation and the specifics of the Hyde & HydeJack themes. I ended up spending a bit of time using some AI-powered tools to prepare graphic design-related content for the site, e.g. background removal for headshots, resizing of images for logos/favicon. For these purposes, those tools worked amazingly well; just a shame really that kids these days will never get to experience the patience-training tedium of isolating content with the pen tool in Photoshop. 
 
 ### Domain Registry
 
@@ -59,9 +58,9 @@ This is extremely simple. Still, I'd never done it before for lack of any need. 
 
 ### Delivery
 
-Jeykll plays very well with GitHub Pages, and they both play well together with GitHub Actions, so this project was a very accesible initial exploration of GitHub Actions. I played around with several approaches, I wanted to find a way to set up a simple continuous integration and deployment approach. "Staging" with GitHub pages is a little tricky, I played around with some options of fully deploying the site in a "staging" approach. I did find one interesting workflow, [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) that adds support for publishing to an external repository. I decided however that building and viewing the Jekyll site locally is plenty for this purpose. 
+Jekyll plays very well with GitHub Pages, and they both play well together with GitHub Actions, so this project was a very accessible initial exploration of GitHub Actions. I played around with several approaches, I wanted to find a way to set up a simple continuous integration and deployment approach. Actually deploying multiple versions of the site to be viewable as hosted on GitHub Pages as "stages" was a little tricky, however, and in the end, I decided that simply building and viewing the Jekyll site locally is plenty for this purpose. The build process for integration was enough to make sure changes won't break the site.
 
-As of writing, the workflow I'm using is a slightly modified version of th suggested [Jekyll workflow](https://github.com/alex-thorne/blog/commit/7dbb6ba785f38f1d2b825f59c9a98ccc15860bc4https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml). I adjusted the workflow to trigger the build job on both on push _and_ merge to `main` and `develop` branch, but only deploy when run on triggers for `main`. Then set branch rules to require successful build checks for those two branche from the action, and set up the settings for GitHub Pages to use GitHub Actions as its source, and tada, CI/CD. Neat.
+As of writing, the workflow I'm using is a slightly modified version of the suggested [Jekyll workflow](https://github.com/alex-thorne/blog/commit/7dbb6ba785f38f1d2b825f59c9a98ccc15860bc4https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml). I adjusted the workflow to trigger the build job on both push _and_ merge to `main` and `develop` branches, but only deploy when run on triggers for `main`. Then set branch rules to require successful build checks for those two branches from the action, and set up the settings for GitHub Pages to use GitHub Actions as its source, and tada, CI/CD. Neat.
 
 ```yaml
 name: Deploy Jekyll site to Pages
@@ -136,7 +135,7 @@ my slightly modified jekyll github actions workflow
 
 ## Take-away
 
-learnings:
+Learnings:
 
 - finding asdf for version management
 - low-cost of entry initial experience with GitHub Actions
