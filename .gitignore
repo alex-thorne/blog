@@ -111,3 +111,6 @@ _zip
 
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
+
+# VS Code workspace files
+*.code-workspace
