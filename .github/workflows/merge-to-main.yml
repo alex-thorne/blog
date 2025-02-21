@@ -1,0 +1,25 @@
+name: Auto Merge Develop to Main
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Ensure all checks passed
+        run: |
+          if [[ "$(gh pr checks ${{ github.sha }})" != "success" ]]; then
+            echo "Checks have not passed."
+            exit 1
+          fi
+
+      - name: Create pull request to main
+        run: gh pr create --base main --head develop --title "Merge develop into main" --body "Automated PR to merge develop into main after successful checks."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
