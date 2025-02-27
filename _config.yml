@@ -53,7 +53,7 @@ menu:
   - title:             Projects
     url:               /projects/
   - title:             Reading List
-    url:               /reading_list/
+    url:               /reading-list/
   - title:             Resume
     url:               /resume/
   - title:             About
@@ -88,7 +88,7 @@ paginate_path:         /blog/:num/
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
- 
+
 # Sidebar image and theme color of the site.
 accent_image:          none
 accent_color:          rgb(79,177,186)
@@ -147,16 +147,19 @@ defaults:
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
+      path:            ""
       type:            projects
     values:
       seo:
         type:          WebPage
   - scope:
+      path:            ""
       type:            featured_categories
     values:
       seo:
         type:          WebPage
   - scope:
+      path:            ""
       type:            featured_tags
     values:
       seo:
@@ -305,6 +308,9 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
+  reading-list:
+    permalink:         /reading-list/:path/
+    output:            true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
