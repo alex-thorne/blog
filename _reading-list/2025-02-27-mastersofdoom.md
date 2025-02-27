@@ -9,7 +9,7 @@ image:
 links:
   - title: Link to publisher's site
     url: https://www.penguinrandomhouse.com/books/96382/masters-of-doom-by-david-kushner/9780812972153/ 
-sitemap: false
+sitemap: true
 categories: [reading-list]
 tags: [reading-list]
 ---
