@@ -16,22 +16,24 @@ tags: [reading-list]
 
 ## Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
 
-Definitely worth reading. The book is well-written and very entertaining.
-I was quite surprised at just how much a true-story of a team of computer programmers could grip my attention.
-Lately I've been tending to read two books at a time: something educational or non-fiction during the day, and something easy and entertaining in the evening. When I picked this up, I didn't read anything else for the next fews days until I'd finished it.
-The work felt well-researched and I appreciate the retelling of the events by David Kushner from various perspectives of those involved in the id tale.
+Definitely worth reading. The book is well-written and highly entertaining.
+I was quite surprised by just how much the true story of a team of computer programmers could grip my attention.
+
+Lately, I've been tending to read two books at a time: something educational or non-fiction during the day and something easy and entertaining in the evening. When I picked this up, I didn't read anything else for the next few days until I finished it.
+The work felt well-researched and well organized. I appreciate David Kushner's retelling of the events from various perspectives of those involved in the id tale.
 
 The story itself is extremely interesting.
-I was young when Doom came out. My first proper Doom experience was Doom II, several years after it was originally published. I believe I finally played it around 1996.
-Still, I grew up in the era where all the events of Masters of Doom are taking place, and many of historical events covered in the book were a revelation to me.
-I was not aware of what was happening behind the scenes or what previous foundations made possible the heavily video game influenced childhood I had.
-Reading this book was a blast of real nostalgia that captured the wonderment I felt about video games as a child like no actual video game has done in a long time.
+I was young when _Doom_ came out. My first proper _Doom_ experience was with _Doom II_, several years after it was originally published. I believe I finally played it around 1996.
+Still, I grew up in the era when all the events of _Masters of Doom_ were taking place, and many of the historical events covered in the book were a revelation to me.
+I was not aware of what was happening behind the scenes or what previous foundations made possible the video game–influenced childhood I had.
+Reading this book was a blast of real nostalgia that captured the wonder I felt about video games as a child—something no actual video game has managed to do in a long time.
 
-The saga of id itself and stories of Carmack and Romero and team stir up many thoughts. On one hand one can't help idolize them and pine for days when, in hindsight, it appears anything was possible given enough guts and the right people dedicated to the idea. On the other hand it's a cautionary tale and plenty can be learned from the tales of id and Ion Storm. It's a wonderful example where one can look back and imagine how changes to business decisions that were made or altering the dynamics of the companies and their teams may have led to drastically different results.
+The saga of id itself, along with the stories of Carmack, Romero, and their teams, stirs up many thoughts. On one hand, you can't help but idolize them and daydream of a time when, in hindsight, it appears anything was possible with enough guts and the right people dedicated to the idea. On the other hand, it's a cautionary tale, and plenty can be learned from the stories of id and Ion Storm.
+It's a wonderful example where one can look back and imagine how changes to business decisions that were made or altering the dynamics of the companies and their teams may have led to drastically different results.
 
 ### Log Details
 
 - Date started: 2025-02-21
 - Date completed: 2025-02-27
 - Read via: e-reader
-- Found via: recommendation (vk)  
+- Found via: recommendation (vk)
