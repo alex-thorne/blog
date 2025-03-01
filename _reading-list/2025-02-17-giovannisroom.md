@@ -9,6 +9,7 @@ links:
     url: https://www.penguinrandomhouse.com/books/669847/giovannis-room-by-james-baldwin-introduction-by-colm-toibin/ 
 sitemap: false
 categories: [reading-list]
+show_collection: reading-list
 image: 
   path: /assets/img/projects/reading-list/giovannisroom.jpg
   srcset: 
@@ -28,7 +29,7 @@ _Giovanni's Room_ made it into my reading list while I was reading around the to
 
 _Giovanni's Room_ was referenced multiple times in articles related to the subject, and after seeing it listed (usually first) in several collections of "classic ..." or "influential gay literature," I naturally picked it up. I hadn't read Baldwin before this. I have several other works by Baldwin pending in my reading list, and after reading _Giovanni's Room_, I'll likely bump them up in priority.
 
-_Giovanni's Room_ is a visceral experience regardless of the reader's own background. While David's own struggle with homosexuality or bisexuality, and his repressed homophobia is perhaps the predominant conflict in the book, I don't believe the reader needs to have any similar, shared experience to feel the tension and anxiety in David's experience. The passion and strife between David and Giovanni feel real outside of its being a same-sex relationship.
+_Giovanni's Room_ is a visceral experience regardless of the reader's own background. While David's own struggle with homosexuality or bisexuality, and his repressed homophobia is perhaps the predominant conflict in the book, the reader doesn't need to have had a similar shared experience of closeted homosexuality to connect with David's conflict. The passion and strife between David and Giovanni also feels real and relatable outside of its being a same-sex relationship. These are power emotions and complex situations that Baldwin makes it possible for anyone to emphasize with. Looking into the experience of being gay and closeted, especially in the era of the book's setting, is ultimately the aspect of this book that had the biggest impact on me.
 
 I was personally very fond of the concept of the actual room where David and Giovanni spent their time together becoming a representation for David's experience as a whole. Of course, how he hides away in the room with Giovanni mirroring how he hides from himself and others in his struggle with his sexuality, but also, on a lighter note, I can't help but think of my own experiences and how certain rooms end up encapsulating all the ideas and feelings of different eras of my life.
 
@@ -38,5 +39,5 @@ Fantastic book. Strongly recommend.
 
 - Date started: 2025-01-03
 - Date completed: 2025-01-12
-- Read via: audiobook
+- Read via: e-reader
 - Found via: search
