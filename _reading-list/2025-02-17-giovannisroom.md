@@ -4,8 +4,6 @@ title: Giovanni's Room
 caption: read 2025-01-12
 date: '2025-01-12'
 accent_color: '#909409'
-image: 
-  path: https://images3.penguinrandomhouse.com/cover/9780812972153
 links:
   - title: Link to publisher's site
     url: https://www.penguinrandomhouse.com/books/669847/giovannis-room-by-james-baldwin-introduction-by-colm-toibin/ 
@@ -39,6 +37,6 @@ Fantastic book. Strongly recommend.
 ### Log Details
 
 - Date started: 2025-01-03
-- Date completed: 2025-02-02
+- Date completed: 2025-01-12
 - Read via: audiobook
 - Found via: search
