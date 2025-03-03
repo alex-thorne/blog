@@ -22,7 +22,7 @@ tags: [reading-list]
 
 ## Stolen Focus: Why You Can't Pay Attention— and How to Think Deeply Again
 
-Good book, would recommend reading. I've largely turned away from the "Self Help" genre of reading for many years. Too much of it feels like I'm being sold something. Not enough of it feels scientific. Maybe I was just bored of it. I read Johann Hari's _Stolen Focus_ on the recommendation of a family member. It didn't feel like self-help as much as it did an exploration into a specific topic. Nothing in particular in the book feels groundbreaking or revolutionary. It looks at the concepts of focus and attention in the context of our modern world from various angles. Hari makes his exploration into various related aspects of what affects our focus easily accessible to the reader, with each topic feeling like a well-linked part of a larger cohesive investigation.
+I've largely turned away from the "Self Help" genre of reading for many years. Too much of it feels like I'm being sold something. Not enough of it feels scientific. Maybe I was just bored of it. I read Johann Hari's _Stolen Focus_ on the recommendation of a family member. It didn't feel like self-help as much as it did an exploration into a specific topic. Nothing in particular in the book feels groundbreaking or revolutionary. It looks at the concepts of focus and attention in the context of our modern world from various angles. Hari makes his exploration into various related aspects of what affects our focus easily accessible to the reader, with each topic feeling like a well-linked part of a larger cohesive investigation.
 
 The book is highly opinionated. To be fair, Hari suggests himself contrary opinions on several topics, or that some of the data or studies' results may be questionable. The book however is not scientific research itself; it's a collection of the results of various interviews with others on their research or expertise. Much of it feels cherry picked, and ultimately a there is clearly a crafted narrative suggesting a clear opinion on the subject from Hari. 
 
@@ -30,9 +30,10 @@ Some of it seems a bit problematic, specifically the ADHD section. To my knowled
 
 In the end, the book aligned well with my existing interest in reducing distraction and focusing on fewer topics, more deeply - something I'd felt I needed to get back under control over the last couple of years. I sought it out because of that, and whether confirmation bias or not, it reaffirmed some simple thoughts on the matter. So, I got what I wanted out of it.
 
-It's a quick read and there are some anecdotes I assume most people would find interesting such as Aza Raskin and his reflections on Infinite Scroll and Tristan Harris and his [call to Minimize Distraction & Respect Users’ Attention](https://archive.org/details/378841682-a-call-to-minimize-distraction-respect-users-attention-by-tristan-harris) while working at Google. Worth reading if you're interested in the subject; just be careful: it may make you want to delete your Facebook account and throw your phone away.
+I'm on the fence about whether I would recommend anyone read this or not.
 
-Honestly, not sure I would actually recommend reading it. I'm on the fence about it still.
+It's a quick read and there are some anecdotes I assume most people would find interesting such as Aza Raskin and his reflections on Infinite Scroll and Tristan Harris and his [call to Minimize Distraction & Respect Users’ Attention](https://archive.org/details/378841682-a-call-to-minimize-distraction-respect-users-attention-by-tristan-harris) while working at Google. It's worth reading if you're interested in the subject, so long as you form your own opinion and validate the suggestions the book makes. 
+
 
 ### Log Details
 
