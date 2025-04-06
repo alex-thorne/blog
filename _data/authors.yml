@@ -21,12 +21,11 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     github:          alex-thorne
-    instagram:       _alexthorne_
     soundcloud:      dj_ald
     linkedin:        alexanderthorne
     spotify:         user/atld45?si=132b6eb7d3334acc
     # email:           <mail@domain.tld>
-    # rss:             https://<url>/feed.xml
+    rss:             https://www.alexthorne.site/feed.xml
     # youtube:         <string_string_string>
     # twitch:          <username>
     # steam:           <number>
