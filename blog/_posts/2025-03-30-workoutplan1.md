@@ -2,24 +2,22 @@
 layout: post
 title: 'Gym Routine / Fitness Plan (#1)'
 caption: Blogged for prosperity and ease of access
-description: >
-  A gym routine / fitness plan, aimed at supporting running fitness and getting cut af.  
+  A gym routine & distance running fitness plan   
 date: '30-03-2025'
 accent_color: '#4fb1ba'
 image: 
-  path: /assets/img/blog/workoutplan/aigeneratedbodydysmorphia.jpg
+  path: /assets/img/blog/workoutplan/trainingplan2025.jpg
   srcset: 
-    1920w: /assets/img/blog/workoutplan/aigeneratedbodydysmorphia.jpg
-    960w:  /assets/img/blog/workoutplan/aigeneratedbodydysmorphia@50.jpg
-    480w:  /assets/img/blog/workoutplan/aigeneratedbodydysmorphia@25.jpg
-    240w:  /assets/img/blog/workoutplan/aigeneratedbodydysmorphia@12.5.jpgi
+    1920w: /assets/img/blog/workoutplan/trainingplan2025.jpg
+    960w:  /assets/img/blog/workoutplan/trainingplan2025@50.jpg
+    480w:  /assets/img/blog/workoutplan/trainingplan2025@25.jpg
+    240w:  /assets/img/blog/workoutplan/trainingplan2025@12.5.jpg
 sitemap: false
 categories: [fitness, running]
 tags: [fitness, running]
 ---
-AI-generated body dysmorphia!
+See the full [training plan here][training-plan].
 {:.figcaption}
-
 
 ## Gym Routine & Fitness Plan
 
@@ -142,8 +140,8 @@ All listed exercise are intended as **2 working sets of 7–8 reps**, unless oth
 
 #### ⏱️ Pauses Between Sets
 
-- ~~2–3 minutes~~ **1-2 min.** between working sets (We've got the endurance from all that running, let's save some time.)
-- Goal: Get your breathing (roughly) back to normal before starting again
+- ~~2–3 minutes~~ **1-2 min.** between working sets (I've got the endurance from all that running, might as well save some time.)
+- Goal: Get my breathing (roughly) back to normal before starting again
 
 #### 🕒 Time-Saving Tips
 
@@ -157,11 +155,15 @@ All listed exercise are intended as **2 working sets of 7–8 reps**, unless oth
 
 ## 🗓 Weekly Activity Calendar
 
+You can view the full version of my Google Sheets [training plan][training-plan] to see how this translates to my actual weekly activities.
+
+(_As seen in the image at the start of the post_)
+
 ### Phase 0: "Rebuild"
 
 Recover a stable foundation with a solid, but still conservative load.
 Prioritize consistent work at a "base pace." The goal here is: time on feet.
-The _Sunday Long Run_ is the main event of the week as we focus on regaining the endurance we've lost (runs >80 min. are the primary endurance builder.)
+The _Sunday Long Run_ is the main event of the week with the focus on regaining the endurance that's been lost (runs >80 min. are the primary endurance builder.)
 
 #### Running
 
@@ -196,11 +198,13 @@ I'll leave these details out until I'm actually ready to shift to the next phase
 
 ### Phase 2: "Strength"
 
-> This is the phase where we being doing more intensive work that is aiming at broad adaptation & generally getting faster
+> This is the phase where we begin doing more intensive work that is aiming at broad adaptation & generally getting faster
 >
 > -- _Ancient Chavi wisdom_
 {:.lead}
 
 ### Phase 3: _Goal Specific Work_
 
-Assuming all goes well for the next 6-8 months, let's see if we could do 2026 springtime Marathon.
+Assuming all goes well for the next 6-8 months, let's see if a 2026 springtime marathon is possible!
+
+[training-plan]: https://docs.google.com/spreadsheets/d/1OOjOneOjQDJI9-XsMm3dSYm8JJUhwu_RJhC7dgH17xA/edit?usp=sharing
