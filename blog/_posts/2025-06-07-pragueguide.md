@@ -15,16 +15,12 @@ sitemap: false
 categories: [blog, travel]
 tags: [blog, travel]
 ---
-Enter a caption here...
+Prague castle from behind
 {:.figcaption}
 
-*this unordered seed list will be replaced by the toc
-{:toc}
-
-## Prague Recommendations / Info
+# Prague Recommendations / Info
 
 For years I've been gradually updating an email that I modify and resend to friends and family when they ask for recommendations when visiting Prague. I'm posting it here now for easier sharing.
-
 The list is highly opinionated and by absolutely no means comprehensive or even very well informed. Maybe one day it will be slightly more informative. Maybe not.
 
 ## Getting around in Prague  
@@ -37,6 +33,7 @@ Public transit in Prague is extremely efficient: you can cross the city in under
 - **App for tickets:** [PID Lítačka](https://app.pidlitacka.cz/). Don't forget to "activate" your purchased tickets when you actually need to use them! 
 - **Google Maps:** Works very well for route planning within the city.
 - **[Mapy.cz](https://mapy.com/):** the best map option for the Czech Republic, especially for tourist trails.
+- **City Bikes** [Rekola](https://www.rekola.cz/en/) and [nextbike](https://www.nextbike.de/en/) are the primary options for short term bike rentals. I think it's a great way to get around Prague. Ride safely - use mapy.cz for the best bike routes.
 
 ### Ridesharing Apps & Taxis
 
@@ -44,11 +41,11 @@ Uber and Wolt operate in Prague and work reliably. They are typically cheaper th
 
 ---
 
-## Sightseeing & Highlights  
+# Sightseeing & Highlights  
 
 Grouped by area. Again, definitely **not** a comprehensive guide.
 
-### Malá Strana  
+## Malá Strana  
 
 Malá Strana (“Small Town”) is the historic district nestled between the river and the hills of the Prague Castle and Petřín.
 It's home to the Prague Castle (the seat of the Czech President and an active working facility), Strakova akademie (office of the Prime Minister), the Valdštejnský palác (Wallenstein Palace, home of the Czech Senate), and a host of international embassies and other political buildings of interest.
@@ -56,13 +53,15 @@ It's the birthplace of the [Czech National Revival](https://en.wikipedia.org/wik
 
 Here are some highlights:
 
-#### Senate Gardens
+### Senate Gardens & Stakov Academy Gardens
 
 You can enter the secluded [gardens of Wallenstein Palace](https://prague.eu/en/objevujte/wallenstein-garden-valdstejnska-zahrada/) without entry fee. 
 The gardens are beautiful and feature free-roaming peacocks and a very unusual dripstone wall.
 In summertime there are often outdoor theatre and concert events in the gardens' amphitheatre (concerts are every Thursday in summer).
 
-#### Prague Castle
+The nearby Stakov Academy gardens ([Zahrada Strakovy akademie](https://cs.wikipedia.org/wiki/Zahrada_Strakovy_akademie)) are open to the public every Saturday from 10:00-18:00. The grounds and building have been recently renovated and are very beautiful.
+
+### Prague Castle
 
 The [**Prague Castle**](https://en.wikipedia.org/wiki/Prague_Castle) is huge and full of beautiful, interesting things to see (including the Toy Museum, Alchemists’ Tour, and Golden Lane.)
 Entrance is free, but there are a number of guided tours that can be taken.
@@ -72,18 +71,20 @@ You can visit the inside of the cathedral at certain times, for paid or free (li
 
 We typically take guests through the rear entrance via the northeast steps near Malostranská metro station for a “backwards” tour of the castle, exiting out to Nerudova street.
 
+The castle is beautiful at night. There is a great restaurant hidden away inside behind the cathedral, [Vikárka Restaurant](http://vikarkarestaurant.cz/), but it closes early. Otherwise, if you exit out the main gate, just across the square is  [Kuchyň](https://kuchyn.ambi.cz/en), which is fantastic restaurant with great terrace views. 
+
 ![Stairs up to the back of the castle](/assets/img/blog/pragueguide/prazkyhrad_mapy@0,5x.png)  
 *Stairs up to the back of the castle*
 
 #### Petřín Hill & Strahov Monastery
 
-Less than 1km to the south of the Prague Castle is Petřín hill. Petřín is home to a very large park and garden, a chapel and large tower on one side, and a monastery, cathedral, beautiful library and brewery on the other. 
+Less than 1km to the south of the Prague Castle is Petřín hill. Petřín is home to a very large park and garden, a chapel and large tower on one side, and a monastery, cathedral, beautiful library and brewery on the other.
 
 You can either [walk past the main Castle entrance](https://www.google.cz/maps/dir/Prague+Castle,+Prague+1/Strahov+Monastery,+Strahovsk%C3%A9+n%C3%A1dvo%C5%99%C3%AD+1%2F132,+118+00+Praha+1/@50.0887748,14.3956118,17z/data=!4m14!4m13!1m5!1m1!1s0x470b951e6c24b7c3:0x2acf3c88af12259f!2m2!1d14.3995792!2d50.0902163!1m5!1m1!1s0x470b936721e269bb:0xcf35623df3761af0!2m2!1d14.3892515!2d50.0861478!3e2?hl=en) at Hradčanské náměstí or up Nerudova to head to the Monastery and library, or you can [take the funicular](http://www.prague.net/funicular) up the south-eastern side of the hill up to the tower and observatory area.
 
-If you're up to it you can [climb the 300 steps](https://www.pragueexperience.com/places.asp?PlaceID=604) up the tower to get a 360-degree view of Prague (~$6 fee). We've done it once, it was cool. Probably wouldn't make my list of "must do in Prague."
+If you're up to it you can [climb the 300 steps](https://www.pragueexperience.com/places.asp?PlaceID=604) up the tower to get a 360-degree view of Prague (~$6 fee). We've done it once, it was cool. Probably wouldn't make my list of "must do in Prague," but it will give you a good panaroma and some exercise.
 
-If you like museums and interesting 'old' stuff, you should check out the [Strahovská Knihovna](https://www.strahovskyklaster.cz/en/strahov-library) (Strahov Library) (~$6 fee). It's well worth it. There is also the Basilica of the Assumption there, which is a very nice chapel.
+If you like museums you should check out the [Strahovská Knihovna](https://www.strahovskyklaster.cz/en/strahov-library) (Strahov Library) (~$6 fee). It's well worth it. They have a funky collection of various interesting and also bizarre objects from antiquity. There is also the Basilica of the Assumption there, a very nice chapel.
 
 If you're in that area, you can head to the [Strahov Monastery Brewery](https://www.klasterni-pivovar.cz/) for a beer and a meal. Get a reservation ahead if you're a big party, and ask to sit outside if the weather's nice.
 
@@ -117,8 +118,7 @@ The nearby [Jewish Museum](https://www.jewishmuseum.cz/en/info/visit/) is defini
 ### Václavské náměstí  
 
 St. Wenceslas Square, Václavské náměstí, is the beautiful, historic, now packed and touristy, boulevard leading up to the National Museum.
-
-Václavské náměstí is a historic site -- a common gathering place of the Czech people during significant national events (*see image below*).
+Václavské náměstí is an important site of cultural and historical significance -- a common gathering place of the Czech people during significant national events (*see image below*).
 
 A visit to the National Museum is worth it just to see the inside of the building. If you do go, take the elevator to the top of the dome for a very cool city view.
 
@@ -128,19 +128,28 @@ A visit to the National Museum is worth it just to see the inside of the buildin
 
 ## Various Other Spots
 
-### Letná  
+### Letná,  Stromovka, Troja
 
 Letna is a large park on a hill north of Prague 1 on the far side of the river. There is a nice beer garden where you can grab a picnic table or two and have a drink and some finger food while looking across the river at all of Prague - the view is pretty incredible on a nice day. Highly recommended if the weather is nice and you want to take a walk through a beautiful park and have a beer (in a plastic cup) with a great view.
 
+In the Letna area is the [National Technical Musuem](https://www.ntm.cz/en) and adjacent it, the [National Museum of Agriculture](https://www.nzm.cz/en), both very nice and worth seeing. Kids typically enjoy both museums.
+
 ![Location of the Letná beer garden](/assets/img/blog/pragueguide/letnamap.png)
 > *the park is large - the beer garden is here*
+
+Just north of Letna is the wonderful, very large park, "Stromovka" (Královská obora Stromovka). Stromovka is an excellent place for running, walking, or bike rides. There are several nice bistros within the park ([Bistro No.2](http://www.bistrono2.cz/) is a nice, casual, outddoor hang out spot.)
+
+Further north, across the river and past "Ceaser's Island" (Císařský Ostrov) is the [Prague Zoo](https://www.zoopraha.cz/).
+
+There is also a very nice cycling route that carries on past the Zoo and goes north along the river quite a ways. If you're clever you can even connect it the cycling route with ferry terminals to cross the river with your bike.
 
 ### Vyšehrad  
 
 A historic fort overlooking the Vltava river.
 It contains possibly the oldest remaining structure in Prague (Rotunda of St. Martin); a beautiful cathedral; and a cemetery which is home to the remains of a number of very famous Czechs including Dvořák, Smetana and Mucha.
 It provides an excellent view of Prague from a direction you won't see if you spend all your time in the center and on the castle-side of the river.
-There are several pubs within the fort walls (I like [Na Hradbach](https://www.na-hradbach.cz/)), and a huge park great for picnics which is full of great statues. I highly recommend you check it out if you're close.
+
+There are several pubs within the fort walls (I like [Na Hradbach](https://www.na-hradbach.cz/)), and a huge park great for picnics which is full of beautiful statues. I highly recommend you check it out if you're close. A trip there could be connected to a visit to the nearby Naplavka.
 
 ### Naplavka
 
@@ -152,6 +161,9 @@ Riverside embankment with boats, bars, live music, and a Saturday farmers’ mar
 ### Botanická Zahrada (Botanical Garden)  
 
 Not the most amazing botanical garden in the world, but very nice nonetheless. There is a cool pub in the back: [Mrtvá Ryba](https://www.facebook.com/Mrtv%C3%A1-ryba-187716801292837/).
+
+
+
 
 ---
 
