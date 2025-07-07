@@ -199,8 +199,6 @@ Here are some highlights of the list, places I really like:
 
 - [Nejen Bistro](http://nejenbistro.cz/) – Prague 3 / Karlin – slightly more pricey but very nice bistro with fancy takes on classic dishes and some unique dishes of their own.
 
-- [Eska Restaurant](http://eska.ambi.cz/en/) – Prague 3 / Karlin – Quite pricey, but very good small plate restaurant (cool, super hip, ever-more gentrified area east of Old Town). Great wine selection, almost all local/Czech goods.
-
 - [Zlý Časy](http://www.zlycasy.eu/) – 25 min. from the center of downtown, but close if you find yourself near I.P. Pavlova or Vyšehrad. An old haunt and personal favorite.
 
 - [Kulový blesk](http://www.restauracekulovyblesk.cz/) – (Prague 1 closer to Prague 4) – great pub with great food, always more than 10 beers on tap. Make a reservation!
