@@ -7,18 +7,16 @@ description: >
 date: '11-07-2025'
 accent_color: '#4fb1ba'
 image: 
-  path: /assets/img/blog/kolo24/chric.jpg
+  path: /assets/img/blog/Obsidian/obsidian-git-ios.jpeg
   srcset: 
-    1920w: /assets/img/blog/kolo24/chric.jpg
-    960w:  /assets/img/blog/kolo24/chric@50.jpg
-    480w:  /assets/img/blog/kolo24/chric@25.jpg
-    240w:  /assets/img/blog/kolo24/chric@12.5.jpg
+    1920w: /assets/img/blog/Obsidian/obsidian-git-ios.jpeg
+    960w:  /assets/img/blog/Obsidian/obsidian-git-ios.jpeg
+    480w:  /assets/img/blog/Obsidian/obsidian-git-ios.jpeg
+    240w:  /assets/img/blog/Obsidian/obsidian-git-ios.jpeg
 sitemap: false
 categories: [Obsidian, writing]
 tags: [Obsidian, writing]
 ---
-
-## Setup
 
 More details on Obsidian and why I love this coming soon. For now, just a quick post to make sure these setup steps get captured, because I spent too long using too many misleading guides before I figured this out. 
 
@@ -37,3 +35,11 @@ More details on Obsidian and why I love this coming soon. For now, just a quick 
 10. Enter GitHub username & Personal Access Token (use the same one from step 2)
 11. You should see status messages that your repo is synced
 12. Navigate to your README.me, make a test edit and use the git panel (swipe left from right side of screen), make a test `commit-and-push`.
+
+<br>
+
+**and, VOILÀ, finally notes markdown notes with gruvbox theme synced across iPhone and my computers 🥹**
+
+<div style="text-align: center;">
+  <img src="/assets/img/blog/Obsidian/obsidian-ios-init-50.jpeg" alt="Obsidian iOS Setup" />
+</div>
