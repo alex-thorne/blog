@@ -2,7 +2,7 @@
 layout: about
 image: /assets/img/al.d-logo-transparent.jpg
 description: >
-  A personal blog site for sharing projects, blogs, my personal resume, and links to various other communities, platforms, or ideas I'm interested in.
+  A personal blog site for sharing projects, blogs, links to various other communities, platforms, or ideas I'm interested in.
 hide_description: true
 redirect_from:
   - /download/
@@ -12,11 +12,9 @@ redirect_from:
 
 ### About me
 
-My name is Alex Thorne, I'm a California-raised US citizen living in Europe for the past 15 years. I like music, running, cycling, surfing, board games, hiking, camping, traveling, language, literature, art, woodworking, etc. etc. etc.
+Hi, I'm Alex. I grew up in California and have been living in Europe for the past 15 years. I like technology, writing, music, running, cycling, surfing, board games, hiking, camping, traveling, language, literature, art, woodworking, etc. etc. etc.
 
-I lead a section of software development and IT operations teams building products in the Commodities & Power Trading sphere (see my [résumé]{:.heading.flip-title} for more.) Lately I've been challenging myself to take on more personal projects in the area general area of DevOps. This site is not only a platform to showcase those projects' journeys, but a project itself.
-
-I'll also use this little site as a place to share links to various other interests of mine (check out [The Pork Chop Express]{:.heading.flip-title}!)
+I run a small (mid-size?) software development company that provides trading services in the energy commodities market sphere. A couple years ago I needed a space to share some content with friends, so I put this site up. I also intend to use this site as a place to share links to various other interests of mine. 
 
 <br>
 
