@@ -14,7 +14,7 @@ redirect_from:
 
 My name is Alex Thorne, I'm a California-raised US citizen living in Europe for the past 15 years. I like music, running, cycling, surfing, board games, hiking, camping, traveling, language, literature, art, woodworking, etc. etc. etc.
 
-I lead a section of software development and IT operations teams building products in the Commodities & Power Trading sphere. <!-- (see my [résumé]{:.heading.flip-title} for more.) --> Lately I've been challenging myself to take on more personal projects in the area general area of DevOps. This site is not only a platform to showcase those projects' journeys, but a project itself.
+I lead a section of software development and IT operations teams building products in the Commodities & Power Trading sphere. <!-- (see my [résumé]{:.heading.flip-title} for more.) --> Lately I've been challenging myself to take on more personal projects in the general area of DevOps. This site is not only a platform to showcase those projects' journeys, but a project itself.
 
 I'll also use this little site as a place to share links to various other interests of mine (check out [The Pork Chop Express]{:.heading.flip-title}!)
 
