@@ -15,7 +15,7 @@ sitemap: false
 categories: [blog, travel]
 tags: [blog, travel]
 ---
-Prague castle from behind
+St. Vitus Catherdal
 {:.figcaption}
 
 # Prague Recommendations / Info
