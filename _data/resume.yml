@@ -1,3 +1,8 @@
+# RESUME DATA FILE - CURRENTLY NOT IN USE
+# This file contains resume data but is currently disabled.
+# The resume page is unpublished (published: false in resume.md)
+# To re-enable, remove the 'published: false' setting from resume.md
+#
 # To use json resume, copy `resume.json` file to `_data` and delete this file.
 basics:
   name: "Alex Thorne"
