@@ -1,4 +1,7 @@
 ---
+# RESUME PAGE COMMENTED OUT - Can be re-enabled later
+# To re-enable: Remove the 'published: false' line below
+published: false
 layout: resume
 title: Résumé*
 description: >

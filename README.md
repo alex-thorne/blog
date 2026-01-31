@@ -1,6 +1,6 @@
 # Personal Blog Site
 
-A personal blog site for sharing projects, blogs, my personal resume, and links to various other communities, platforms, or ideas I'm interested in.
+A personal blog site for sharing projects, blogs, and links to various other communities, platforms, or ideas I'm interested in.
 
 ## Running locally
 1. Clone repository

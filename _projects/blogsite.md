@@ -23,7 +23,7 @@ sitemap: false
 
 # Blog Site
 
-I wanted to put up a site to host a resume and share some other content. I also knew I'd rather move to other more interesting projects than spend too much time on the site itself. I had some exposure to using Jekyll sites from collaborating with my brother, Erik, and friends on our indie-community-radio station, [The Pork Chop Express](http://porkchopexpress.live/). I especially liked the simplicity of building a Jekyll site with [GitHub Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) and hosting it via [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). I found a nice theme I liked in [Hydejack](https://hydejack.com/), a fork of the popular [Hyde](https://jekyllthemes.io/theme/hyde) theme. I like HydeJack's support for [JSON resume](https://jsonresume.org/), dark theme support, and several other features. 
+I wanted to put up a site <!-- to host a resume and --> to share some content. I also knew I'd rather move to other more interesting projects than spend too much time on the site itself. I had some exposure to using Jekyll sites from collaborating with my brother, Erik, and friends on our indie-community-radio station, [The Pork Chop Express](http://porkchopexpress.live/). I especially liked the simplicity of building a Jekyll site with [GitHub Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) and hosting it via [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). I found a nice theme I liked in [Hydejack](https://hydejack.com/), a fork of the popular [Hyde](https://jekyllthemes.io/theme/hyde) theme. I like HydeJack's <!-- support for [JSON resume](https://jsonresume.org/), --> dark theme support, and several other features. 
 
 ## Process
 
@@ -140,7 +140,7 @@ Learnings:
 - finding asdf for version management
 - low-cost of entry initial experience with GitHub Actions
 - Forced to use some AI tools (Canva, ChatGPT-based Image Generator for site graphic assets (icons, headshots, logo))
-- finding the JSON Resume format
+<!-- - finding the JSON Resume format -->
 - Having to think closely about sensitive content control if maintaining this project as a public repository
 
 ### Project Details
