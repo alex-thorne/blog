@@ -83,8 +83,8 @@ jobs:
         run: |
           npx serve _site -l 4000 &
           echo "Waiting for server to start..."
-          sleep 5
-          curl -I http://localhost:4000 || (echo "Server failed to start" && exit 1)
+          timeout 30 bash -c 'until curl -sf http://localhost:4000 > /dev/null; do sleep 1; done'
+          echo "Server is ready!"
       
       - name: Create Playwright test
         run: |
@@ -112,6 +112,10 @@ jobs:
       
       - name: Run Playwright tests
         run: npx playwright test --update-snapshots
+        env:
+          # Using --update-snapshots to generate baseline snapshots
+          # For visual regression testing, baseline snapshots should be 
+          # stored in the repository and this flag removed
       
       - name: Upload visual snapshots
         if: always()
@@ -120,6 +124,8 @@ jobs:
           name: visual-snapshots
           path: |
             e2e-visual.spec.js-snapshots/
+            playwright-report/
+            test-results/
           retention-days: 30
       
       - name: Create snapshot summary
