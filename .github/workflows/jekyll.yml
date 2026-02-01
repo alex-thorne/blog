@@ -110,12 +110,11 @@ jobs:
           });
           EOF
       
+      # Using --update-snapshots to generate baseline snapshots
+      # For visual regression testing, baseline snapshots should be 
+      # stored in the repository and this flag removed
       - name: Run Playwright tests
         run: npx playwright test --update-snapshots
-        env:
-          # Using --update-snapshots to generate baseline snapshots
-          # For visual regression testing, baseline snapshots should be 
-          # stored in the repository and this flag removed
       
       - name: Upload visual snapshots
         if: always()
