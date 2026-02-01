@@ -51,6 +51,88 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v4
 
+  # E2E Visual Testing job
+  e2e-test:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ./artifact
+      
+      - name: Extract artifact
+        run: |
+          mkdir -p _site
+          cd artifact
+          tar -xf artifact.tar -C ../_site
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install -D @playwright/test serve
+          npx playwright install --with-deps chromium
+      
+      - name: Serve site in background
+        run: |
+          npx serve _site -l 4000 &
+          echo "Waiting for server to start..."
+          sleep 5
+          curl -I http://localhost:4000 || (echo "Server failed to start" && exit 1)
+      
+      - name: Create Playwright test
+        run: |
+          cat > e2e-visual.spec.js << 'EOF'
+          const { test, expect } = require('@playwright/test');
+
+          test('homepage visual snapshot', async ({ page }) => {
+            await page.goto('http://localhost:4000');
+            await page.waitForLoadState('networkidle');
+            await expect(page).toHaveScreenshot('homepage.png', {
+              fullPage: true,
+              animations: 'disabled'
+            });
+          });
+
+          test('blog page visual snapshot', async ({ page }) => {
+            await page.goto('http://localhost:4000/blog/');
+            await page.waitForLoadState('networkidle');
+            await expect(page).toHaveScreenshot('blog-page.png', {
+              fullPage: true,
+              animations: 'disabled'
+            });
+          });
+          EOF
+      
+      - name: Run Playwright tests
+        run: npx playwright test --update-snapshots
+      
+      - name: Upload visual snapshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-snapshots
+          path: |
+            e2e-visual.spec.js-snapshots/
+          retention-days: 30
+      
+      - name: Create snapshot summary
+        if: always()
+        run: |
+          echo "## 📸 Visual Snapshots Generated" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Visual snapshots have been captured for the following pages:" >> $GITHUB_STEP_SUMMARY
+          echo "- Homepage" >> $GITHUB_STEP_SUMMARY
+          echo "- Blog Page" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Download the \`visual-snapshots\` artifact to view the images." >> $GITHUB_STEP_SUMMARY
+
   # Deployment job
   deploy:
     if: github.ref == 'refs/heads/main'
