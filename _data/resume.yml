@@ -2,7 +2,7 @@
 basics:
   name: "Alex Thorne"
   label: "IT Operations Manager"
-  picture: "/assets/img/headshot-resume.jpg"
+  picture: "/assets/img/headshot.png"
   website: "https://alexthorne.site"
   profiles:
     - network: "LinkedIn"
