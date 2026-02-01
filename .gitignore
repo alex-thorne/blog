@@ -114,3 +114,9 @@ _zip
 
 # VS Code workspace files
 *.code-workspace
+
+# E2E test artifacts (generated in CI)
+e2e-visual.spec.js
+e2e-visual.spec.js-snapshots/
+playwright-report/
+test-results/
