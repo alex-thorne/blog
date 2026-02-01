@@ -2,7 +2,7 @@
 layout: about
 image: /assets/img/al.d-logo-transparent.jpg
 description: >
-  A personal blog site for sharing projects, blogs, links to various other communities, platforms, or ideas I'm interested in.
+  A personal blog site for sharing projects, blogs, and links to various other communities, platforms, or ideas I'm interested in.
 hide_description: true
 redirect_from:
   - /download/
@@ -33,4 +33,4 @@ it me.
 {:.figcaption}
 
 [The Pork Chop Express]: projects.md
-[Résumé]: resume.md
+<!-- [Résumé]: resume.md -->
