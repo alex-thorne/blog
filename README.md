@@ -17,6 +17,20 @@ A personal blog site for sharing projects, blogs, and links to various other com
 - The site is presented as a [Jekyll](https://jekyllrb.com/) site
 - It's using the [hydejack](https://github.com/hydecorp/hydejack) theme
 
+## Image assets
+
+Post images live under `assets/img/blog/<topic>/`. Hydejack expects a `srcset` map with 50/25/12.5% variants alongside the original. Generate them with:
+
+```bash
+venv/bin/python scripts/imageresize.py assets/img/blog/<topic>/<file>.png
+```
+
+The script shells out to ImageMagick (`magick`) and uses Pillow to read dimensions, so you'll need both:
+- `brew install imagemagick`
+- Pillow in the project venv: `python3 -m venv venv && venv/bin/pip install Pillow`
+
+Output is written next to the source as `<name>@0,5x.<ext>`, `@0,25x`, and `@0,125x`.
+
 ## CI/CD Pipeline
 
 The repository includes an automated CI/CD pipeline that:
