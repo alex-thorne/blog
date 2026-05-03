@@ -120,3 +120,6 @@ e2e-visual.spec.js
 e2e-visual.spec.js-snapshots/
 playwright-report/
 test-results/
+
+# Claude Code
+.claude/
